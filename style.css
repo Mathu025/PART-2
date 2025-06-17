@@ -1,0 +1,88 @@
+* {
+    font-size: 18px;
+}
+
+
+h1 {
+    font-size: 40px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    padding: 24px, 12px;
+    align-items: center;
+    gap: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.field {
+    border: 2px solid blue;
+    padding: 6px 20px;
+    border-radius: 5px;
+}
+
+.field::placeholder {
+    font-style: italic;
+}
+
+.button {
+    padding: 6px 20px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    cursor: pointer; 
+    transition: 0.4s;
+}
+.button:hover {
+    background-color: blue;
+    color: white;
+    opacity: 0.7;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.remove {
+    cursor: pointer;
+    border-radius: 5px;
+    padding:6px 30px;
+    border: none;
+}
+
+#RSVP {
+    background: blue;
+    color: white;
+}
+
+#remove {
+    background: red;
+    color: white;
+}
+
+
+
+
+
+
+
