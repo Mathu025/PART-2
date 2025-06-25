@@ -1,3 +1,7 @@
+# LIVE DEPLOYMENT LINK 
+https://mathu025.github.io/PART-2/
+
+
 # EVENT GUEST LIST MANAGER
 
 A simple interactive web application that allows one to manage a guest list for one's event. This one is specifically made for Alex' Graduation Attendance.
